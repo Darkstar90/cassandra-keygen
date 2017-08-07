@@ -4,7 +4,7 @@
 
 ## Intro To cassandra-keygen
 
-The purpose of this script is to automate the generation of SSL certificates for multiple Cassandra nodes when setting up node to node or client to node encryption.
+The purpose of this script is to automate the generation of SSL certificates for multiple Cassandra nodes when setting up node-to-node or client-to-node encryption.
 
 ## How To Use This script
 
