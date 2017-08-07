@@ -11,7 +11,7 @@ The purpose of this script is to automate the generation of SSL certificates for
 Decide whether you would like to generate node certificates, import node certfificates into the keystore, or generate a truststore.
 Add all necessary arguments in the command line
 when running the script, depending on the choice you made above. The script will first prompt you to choose the run mode.
-Enter your choice and press <Enter>. The script will complete your request and output any created files to
+Enter your choice and press `<Enter>`. The script will complete your request and output any created files to
 the destination directory you specified in the <-d> argument.
 
 ## Script Modes
