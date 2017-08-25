@@ -54,16 +54,16 @@ An example usage of each mode is demonstrated below, for a cluster of 6 nodes.
 
 **Generate Node Certificates**
 
-			bash cassandra-keygen.sh  --nodes 6 --directory /etc/cassandra/conf/.keystore --cluster Cassandra_Cluster --password cassandra --sslconfig /etc/cassandra/conf/rootCAcert.conf --keysize 4096
+	bash cassandra-keygen.sh  --nodes 6 --directory /etc/cassandra/conf/.keystore --cluster Cassandra_Cluster --password cassandra --sslconfig /etc/cassandra/conf/rootCAcert.conf --keysize 4096
 
 **Import Node Certificates**
 
-			bash cassandra-keygen.sh -n 6 -d /etc/cassandra/conf/.keystore -p cassandra
+	bash cassandra-keygen.sh -n 6 -d /etc/cassandra/conf/.keystore -p cassandra
 
 **Generate Truststore**
 
-			bash cassandra-keygen.sh --directory /etc/cassandra/conf/.keystore --truststore cassandra
+	bash cassandra-keygen.sh --directory /etc/cassandra/conf/.keystore --truststore cassandra
 
 **Do All Actions**
 
-			bash cassandra-keygen.sh  --nodes 6 --directory /etc/cassandra/conf/.keystore --cluster Cassandra_Cluster --password cassandra --truststore cassandra --sslconfig /etc/cassandra/conf/rootCAcert.conf --keysize 4096
+	bash cassandra-keygen.sh  --nodes 6 --directory /etc/cassandra/conf/.keystore --cluster Cassandra_Cluster --password cassandra --truststore cassandra --sslconfig /etc/cassandra/conf/rootCAcert.conf --keysize 4096
